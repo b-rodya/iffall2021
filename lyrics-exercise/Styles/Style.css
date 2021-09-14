@@ -1,0 +1,19 @@
+body {
+    text-align:center;
+    background-color: #1E1E1E;
+    color:#d8e3e3;
+    font-family: 'Courier';
+    font-size: larger;
+    background-image:url(https://www.baltana.com/files/wallpapers-17/Black-Paper-Texture-Wallpaper-42272.jpg);
+}
+p2 {
+    color:red
+}
+chorus {
+    font-weight:bolder;
+    font-style: italic;
+}
+soft { 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
