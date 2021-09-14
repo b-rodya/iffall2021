@@ -1,0 +1,23 @@
+body {
+    text-align:center;
+    color:#d8e3e3;
+    background-color:black;
+    font-family: 'Courier';
+    font-size: larger;
+    background-image: url(a.jpg);
+    background-repeat:no-repeat;
+}
+p2 {
+    color:red
+}
+chorus {
+    font-weight:bolder;
+    font-style: italic;
+}
+soft { 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+img {
+    width: 1000px;
+}
