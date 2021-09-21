@@ -1,0 +1,72 @@
+htm {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;  
+}
+
+body {
+    background-color:rgb(255, 251, 240);
+    text-indent: -1.7rem;
+    margin: 12%;
+    color:rgb(88, 82, 71);
+}
+
+h1 {
+    color:rgb(126, 90, 50);
+}
+
+h2 {
+    color:rgb(179, 142, 74);
+}
+
+h3 {
+    color:rgb(197, 174, 130);
+    text-indent: -0.3rem;
+}
+
+normal {
+    font-weight: normal;
+}
+
+light {
+    font-weight: lighter;
+}
+
+bold {
+    font-weight: bold; 
+}
+
+italic {
+    font-style:italic;
+}
+
+Ntracking {
+    letter-spacing: -0.11rem;
+}
+
+Wtracking {
+    letter-spacing: 1rem;
+}
+
+cap {
+    text-transform: capitalize;
+}
+
+uppy {
+    text-transform: uppercase;
+}
+
+smol {
+    text-transform: lowercase;
+}
+
+undy {
+    text-decoration: underline;
+}
+
+Ovy {
+    text-decoration: overline;
+}
+
+LT {
+    text-decoration: line-through;
+}
