@@ -1,0 +1,183 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    color:rgb(135, 147, 158);
+
+}
+/* background stuff*/
+
+/*header start*/
+header {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    height: 480px;
+}
+
+header h1 {
+    font-size: 81px;
+    font-weight:bold;
+    text-align: center;
+    margin: 0; 
+    text-align: center;
+    padding: 175px 0px 0px 0px;
+    font-size: 82px;
+    line-height: 50px;
+    letter-spacing: 0.1rem;
+}
+
+header h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+/*header end*/
+
+/*all except above*/
+h2{
+    font-size: 3px;
+    text-align: center;
+    padding: 0px 0px 28px 0px;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+/*all except above*/
+
+/*sect1 start*/
+
+.sect1 {
+    background-color:rgb(241, 221, 230);
+    padding-top: 0.3px;
+    
+   
+}
+.sect1 .content {
+    padding: 0px 0px 49px 0px;
+}
+
+.sect1 h1{
+    font-size: 43px;
+    padding: 0;
+    text-align: center; 
+}
+
+p {
+    font-size: 18px;
+    margin:0;
+    padding:0px 0px 11px 0px; 
+    line-height: 25px;
+    margin-bottom: 0.25em;
+}
+
+.img1 {
+    width: 400px; 
+    height: 300px;
+    float: right;
+    margin: 0rem 0rem 1.6rem 2.8rem;
+}
+/*sect1 end*/
+
+/*sect2 start*/
+
+.sect2 {
+    background-color:rgb(236, 246, 250);
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+.sect2 h1 /*section title*/{
+    margin-top: -0.5px;
+    margin-bottom: 3px;
+    text-align: center; 
+
+}
+
+.sect2 h2 /*photo titles*/{
+    font-size: 20px;
+    text-align: left;
+    padding: 0px;
+    margin-left: 210px;
+    margin-top: 11px;
+    line-height: 3px;
+}
+
+.grid {
+    
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 5px;
+    right: 40px;
+    margin-left: -1em;
+    margin-top: 2.5em;
+
+}
+
+.grid li {
+    display: block;
+    width: 50%;
+    position: relative; 
+    left: 20px;
+    
+}
+    
+.gridphotos {
+    width: 200px; 
+    height: 150px; 
+    float: left; 
+    object-fit:cover;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    
+}
+
+.sect2 p {
+    font-size: 18px;
+    width: 450px; 
+    line-height: 24px;
+
+}
+
+/* section 2 end */
+
+/* section 3 start*/
+
+.sect3 {
+        background-color:rgb(241, 221, 230);
+        padding-top: 2px;
+        padding-bottom: 65px;
+    }
+
+.sect3 h1 {
+    font-size: 43px;
+    text-align: center;
+    margin-top: 74px;
+}
+
+.sect3 h3 {
+    text-align: center;
+    width: 700px;
+    font-size: 25px;
+    line-height: 35.8px;
+    letter-spacing: 0.3px;
+    margin: auto;
+
+}
+/*section 3 end*/
+
+footer {
+    padding-top: 30px;
+    background-color:rgb(236, 246, 250);
+}
+footer .content {
+    float: bottom left;
+    margin-right: 150px;
+    margin-top: 40px;
+    letter-spacing: .05rem; 
+}
+
