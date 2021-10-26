@@ -1,0 +1,220 @@
+/* all text 
+Ingredients:
+2 eggs
+1 16 oz can pumpkin puree
+1 14 oz can sweetened 
+condensed milk
+1 9 inch unbaked pie crust
+
+Supplies:
+Large mixing bowl
+9 inch pie dish
+Baking sheet
+
+Time Needed:
+~60 mins
+
+Preheat the oven 
+to 425 degrees F 
+(220 degrees C)
+
+Combine eggs, 
+pumpkin puree, 
+sweetened 
+condensed milk, and pumpkin 
+pie spice in a large bowl and mix 
+until combined
+
+Fit pie crust into a 9-inch pie dish; pour pumpkin mixture into the crust
+
+
+Place pie on a baking sheet and bake in the 
+preheated oven for 15 minutes. Reduce heat to 350 degrees F (175 
+degrees C) and bake 
+until filling is set, 35 
+to 40 minutes
+
+dont forget to include source site 
+*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color:rgb(247, 238, 213);
+}
+
+
+header {
+    background-color:#f1a042;
+    background-size:cover;
+    padding-bottom: 5px;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(94, 50, 21);
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;  
+   
+}
+
+h1 {
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 80px;
+    color:rgb(247, 238, 213);
+    text-decoration: 2px underline; 
+    text-align:center;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+
+h2 {
+    font-family: 'Lobster';
+    font-size: 40px;
+    text-decoration: 2px underline;
+}
+
+.img1 {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    max-height: 50%;
+}
+
+.setup {
+    margin-left: 7rem;
+}
+
+.column h2 {
+    margin-bottom: -3px;
+}
+
+.column {
+    float: left; 
+    width: 50%;
+    margin-bottom: 30px;
+    margin-left: -9px;
+    font-size: 20px;
+   
+}
+
+.a  {
+    border-radius: 50%;
+    width: 55%;
+    float: right;
+    margin: -27rem 1rem 0rem 0rem; 
+}
+/* margin: up/down, left/right, [ignore other two] */
+
+/*-----------------STEPS------------------------------------------*/
+
+.steppy {
+    margin-top: 600px;
+    margin-left: -12px;
+    list-style: none;
+}
+
+.steppy .column {
+    float: left; 
+    width: 50%;
+    margin-bottom: 30px;
+    margin-left: -25px;
+    margin-right: 5px;
+    font-size: 20px;
+    
+}
+.steps h2 {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 60px;
+    color: rgb(247, 238, 213);
+    background-color:#f1a042;
+}
+.steps ul {
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-right: 5px;
+    clear: left;
+}
+
+.steps li img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.steps li h3 {
+    font-size: 45px;
+    font-style: oblique;
+    padding-left: 10px;
+}
+
+.steps li {
+    padding-left: 100px;
+    margin-top: -10px;
+}
+
+.steps .img2 { /*this is the first image of the steps section*/
+    height: 170px;
+    width: 170px;
+    float:right;
+    padding: 10px;
+   
+}
+
+.steps .img3 { /*whisk img*/
+    height: 170px;
+    width: 170px;
+    float: right;
+    padding: 10px;
+}
+
+.steps .img4 { /* batter img */
+    height: 170px;
+    width: 170px;
+    float: right;
+    padding: 10px;
+    
+   
+}
+
+.steps .img5 { /* oven pie img */
+    height: 170px;
+    width: 170px;
+    float: right;
+    padding: 10px;
+    
+  
+}
+
+.steps .img6 { /*oven hand*/
+    height: 170px;
+    width: 170px;
+    float: right;
+    padding: 10px;
+}
+
+
+.steps .img7 {
+    height: 170px;
+    width: 170px;
+    float: right;
+    padding: 10px;
+}
+
+
