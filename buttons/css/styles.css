@@ -1,0 +1,358 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px; 
+    padding: 0px;
+}
+
+.main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+   
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*dont touch above*/
+
+/* button styles */
+
+a#btn_coke img {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+a#btn_coke img:hover {
+    transition: 0.45s;
+    transform: scale(.6);
+}
+
+
+a#btn_apple img {
+    /*c below */
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+    /*c above*/
+}
+
+a#btn_apple img:hover{ 
+    transition: 1s;
+    transform: scale(20);
+}
+
+a#btn_nerf img {
+    display: block;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 0
+}
+
+a#btn_nerf img:hover {
+    transition: 1s;
+    transform: rotateY(755deg);
+}
+
+a#btn_clist img {
+    display: block;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 0
+}
+
+a#btn_clist img:hover {
+    filter: hue-rotate(300deg);
+}
+
+a#btn_lyft img {
+	display: block;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 0
+}
+
+a#btn_lyft img:hover {
+    transition:.2s;
+    transform:skew(15deg);
+}
+
+a#btn_sam img {
+    display: block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0
+}
+
+a#btn_sam img:hover {
+    transition: .3s;
+    transform: scale(1.2);
+    opacity: 50%;
+}
+
+a#btn_cn img {
+    display: block;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0
+}
+
+a#btn_cn img:hover {
+    transition: .8s;
+    filter:invert(100%);
+}
+
+a#btn_jimmy img {
+    display: block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0
+}
+
+a#btn_jimmy img:hover {
+    transition: 1s;
+    filter:saturate(500%);
+    transform: rotateX(360deg);
+}
+
+a#btn_nike img {
+    display: block;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 0;
+}
+
+a#btn_nike img:hover {
+    transition: .2s;
+    transform:skew(-40deg);
+}
+
+a#btn_tesla img {
+    display: block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0;
+}
+
+a#btn_tesla img:hover {
+    transition: 0.2s;
+    transform: scale(1.25);
+}
+
+a#btn_color img {
+    display: block;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+}
+
+a#btn_color img:hover {
+    transition: 250s;
+    filter:hue-rotate(72000deg);
+}
+
+a#btn_moo img {
+    display: block;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 0;
+}
+
+a#btn_moo img:hover {
+    transition: 1s;
+    filter:sepia(500);
+}
+
+a#btn_kitten img {
+    display: block;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 0;
+}
+
+a#btn_kitten img:hover {
+    transition: 1s;
+    transform: rotate(360deg) scale(200000%);
+
+}
+
+a#btn_ny img {
+    display: block;
+    height: 100px;
+    width: 255px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 0;
+}
+
+a#btn_ny img:hover {
+    transition: 1.5s;
+    opacity: 50%;
+}
+
+
+a#btn_flight img {
+    display: block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0;
+}
+
+a#btn_flight img:hover {
+    animation: moveToTop 2s ease-in-out;
+    animation-delay: 0s; 
+}
+
+@keyframes moveToTop {
+    0% {
+          transform: translateY(0px);
+        }
+    100% {
+          transform: translateY(-300px); 
+    }} 
+
+a#btn_npr img {
+    display: block;
+    height: 130px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    padding: 0;
+
+}
+
+a#btn_npr img:hover {
+    animation: moveToRight 2s ease-in-out;
+    animation-delay: 0s;
+}
+
+@keyframes moveToRight {
+    0% {
+          transform: translateX(0px);
+        }
+    100% {
+          transform: translateX(300px); 
+    }} 
+
+a#btn_insta img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+}
+
+a#btn_insta img:hover {
+    transition: 1s;
+    filter:invert(100%);
+}
+
+a#btn_zucc img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+}
+
+a#btn_zucc img:hover {
+    transition: 10s;
+    transform: scale(0%);
+    filter:saturate(0%);
+}
+
+a#btn_navy img {
+    display: block;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0;
+}
+
+a#btn_navy img:hover {
+    transition: 1s;
+    transform: rotateX(360deg);
+}
+
+a#btn_army img {
+    display: block;
+    height: 150px;
+    width: 120px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    padding: 30;
+}
+
+a#btn_army img:hover {
+    transition: .5s;
+    filter: sepia(100%);
+    transform: scale(160%);
+}
