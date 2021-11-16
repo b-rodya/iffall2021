@@ -1,0 +1,102 @@
+
+/*padding order: top, right, bottom, left*/
+
+/*navbar*/
+.navbar {
+    width: 100%; /* Full width */
+    overflow: hidden;
+    background-color: rgb(17, 17, 17);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    font-size: 25px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffd900;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(105%);
+    
+  }
+/*navbar*/
+
+/*padding order: top, right, bottom, left*/
+  .main {
+    margin-top: 55px;
+    width: 25%; 
+    font-size: 15px;
+    padding: 30px;
+    background-color: rgb(176, 189, 102); 
+    overflow:auto;
+    color:white;
+    padding:10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+  }
+
+.main h2 {
+    color: black;
+    padding-top: 20px;
+}
+
+/*padding order: top, right, bottom, left*/
+
+.home {
+    background-image: url(homeimg.png);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.history {
+  background-image: url(john_teddy.jpg);
+  background-size: 100%; 
+/*may try to add additional images later*/
+}
+
+.ecology {
+  background-image: url(trees.jpg);
+}
+
+.geology {
+  background-image: url(rocks.jpg);
+}
+
+.activities {
+  background-image: url(climb.jpg);
+}
+.map {
+    margin-top: 55px;
+    width: 100%; 
+    font-size: 20px;
+    float: right;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(176, 189, 102); 
+    overflow:auto;
+    color:white;
+    padding:10px;
+
+}
+
+.footer {
+    background-color: rgb(176, 189, 102); 
+}
+
+.img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
